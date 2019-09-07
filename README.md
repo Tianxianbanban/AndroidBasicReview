@@ -16,3 +16,10 @@
        + LitePal
    + 文件存储
 2. 内容提供器
+3. 通知
+   + NotificationManager负责将Notification通知；
+   + 一个延迟性质的意图可以给通知添加点击效果。
+4. 多媒体
+   + 内置系统应用相机的启动Intent intent=new Intent("android.media.action.IMAGE_CAPTURE");
+   + 调用相册Intent intent=new Intent("android.intent.action.GET_CONTENT");
+5. 网络技术使用
