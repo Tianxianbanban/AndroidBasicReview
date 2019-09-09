@@ -22,4 +22,6 @@
 4. 多媒体
    + 内置系统应用相机的启动Intent intent=new Intent("android.media.action.IMAGE_CAPTURE");
    + 调用相册Intent intent=new Intent("android.intent.action.GET_CONTENT");
-5. 网络技术使用
+   + 播放多媒体文件，主要用到MediaPlayer类对象；
+   + 播放视频，主要用到VideoView。
+5. 网络编程
