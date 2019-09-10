@@ -26,5 +26,13 @@
    + 播放视频，主要用到VideoView。
 5. 网络编程
    + HTTP协议
-   + 
+   + OkHttp框架
 6. Android多线程编程
+   + 异步消息处理机制
+     + Message、Handler、MessageQueue、Looper；runOnUIThread()方法就是一个异步消息处理机制的封装；
+     + 继承AsyncTask，实现onPreExecute()、DoInBackground()、onProgressUpdate()、onPostExecute()。
+7. 服务
+   + 定义、创建、启动、停止服务；
+   + 活动与服务进行通信，需要借助Binder对象；
+   + 服务的声明周期：
+
